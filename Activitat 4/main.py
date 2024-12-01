@@ -3,9 +3,9 @@ from Colibri import Colibri
 
 
 # Instancia objectes Cotxe
-cotxe_1 = Cotxe(marca="Toyota", color="Multicolor", rodes=4)
-cotxe_2 = Cotxe(marca="Cupra", color="Blanc", rodes=4)
-cotxe_3 = Cotxe(marca="Honda", color="Negre", rodes=4)
+cotxe_1 = Cotxe(marca="Toyota", color="Multicolor", rodes=4, motor ="gasolina", edat=10)
+cotxe_2 = Cotxe(marca="Cupra", color="Blanc", rodes=4, motor ="electric", edat=3)
+cotxe_3 = Cotxe(marca="Honda", color="Negre", rodes=4, motor ="diesel", edat=8)
 print(f'La marca del meu cotxe és {cotxe_1.getMarca()}')
 print(f'El meu cotxe es de color {cotxe_1.getColor()}')
 print(f'El meu cotxe te {cotxe_1.getRodes()} rodes')
