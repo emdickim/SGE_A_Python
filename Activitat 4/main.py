@@ -15,7 +15,7 @@ colibri_1 = Colibri(nom="pajarito", especie="Pardo", color="Multicolor", extremi
 colibri_2 = Colibri(nom="piolin", especie="orejimorado", color="Blanc", extremitats=4)
 colibri_3 = Colibri(nom="pio", especie="Orejavioleta", color="Negre", extremitats=4)
 print(f'El meu colibri es diu {colibri_1.getNom()}')
-print(f'El colibri es de la especie {colibri_1.getEspecie}')
+print(f'El colibri es de la especie {colibri_1.getEspecie()}')
 print(f'El colibri es de color {colibri_1.getColor()}')
 print(f'El meu ocell te {colibri_1.getExtremitats()} extremitats')
 
@@ -27,8 +27,8 @@ cotxe_1.setColor("Lila")
 
 # Mostrar els 2 atributs modificats a través dels getters
 print("\nAtributs modificats del Cotxe 1:")
-print(f"Marca: {cotxe_1.getMarca()}")
-print(f"Color: {cotxe_1.getColor()}")
+print(f"Edat: {cotxe_1.getEdat()}")
+print(f"Motor: {cotxe_1.getMotor()}")
 
 
 # Modificar 2 atributs de Colibrí a través dels setters
@@ -37,5 +37,5 @@ colibri_1.setColor("verd")
 
 # Mostrar els 2 atributs modificats a través dels getters
 print("\nAtributs modificats del Colibrí 1:")
-print(f"Color: {colibri_1.getColor()}")
+print(f"Especie: {colibri_1.getEspecie()}")
 print(f"Extremitats: {colibri_1.getExtremitats()}")

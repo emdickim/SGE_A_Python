@@ -3,7 +3,7 @@ class Colibri:
     def __init__(self, nom, especie, color, extremitats):
         #Atributs
         self.nom = nom
-        self.marca = especie
+        self.especie = especie
         self.color = color
         self.extremitats = extremitats
 
